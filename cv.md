@@ -23,7 +23,7 @@
  ```
 
 ##  **Education**
- + Academy of the Ministry of Internal Affairs of the Republic of Belarus.
+ + Academy of the Ministry of Internal Affairs of the Republic of Belarus
     - Faculty of Law
 
 
