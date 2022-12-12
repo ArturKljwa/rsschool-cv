@@ -103,10 +103,63 @@ margin-top: 20px;
     font-size: 30px;
     letter-spacing: 12px;
 }
+.section-item {
+    position: relative;
+    list-style-type: none;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.section-item::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 2px;
+    left: -25px;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    background-image: url('../assets/img/icon/check_mark.png')
+}
+.section-item a {
+    text-decoration: none;
+    color: #000;
+}
+.contact-item:nth-child(1)::before {
+    background-image: url('../assets/img/icon/location.png')
+}
+.contact-item:nth-child(2)::before {
+    background-image: url('../assets/img/icon/email.png')
+}
+.contact-item:nth-child(3)::before {
+    background-image: url('../assets/img/icon/github.png')
+}
+.contact-item:nth-child(4)::before {
+    background-image: url('../assets/img/icon/discord.png')
+}
+.contact-item:nth-child(5)::before {
+    background-image: url('../assets/img/icon/phone.png')
+}
+.skills-item:nth-child(1)::before {
+    background-image: url('../assets/img/icon/html.png')
+}
+.skills-item:nth-child(2)::before {
+    background-image: url('../assets/img/icon/css.png')
+}
+.skills-item:nth-child(3)::before {
+    background-image: url('../assets/img/icon/javascript.png')
+}
+.skills-item:nth-child(4)::before {
+    background-image: url('../assets/img/icon/git.png')
+}
+.summary-text {
+    font-size: 20px;
+    line-height: 33px;
+}
 
 .section-education, .section-languages{
     border: none;
 }
+
 
 .footer {
     background-color: #000;
@@ -122,6 +175,8 @@ align-items: center;
 }
 .footer-link a {
     padding-left: 20px;
+    text-decoration: none;
+    color: #fff;
 }
 .rss {
     display: block;
