@@ -1,9 +1,11 @@
 * {
     box-sizing: border-box;
-  }
-  html {
+}
+
+html {
     scroll-behavior: smooth;
-  }
+}
+
 body {
     font-family: Roboto;
     min-height: 100vh;
@@ -12,25 +14,30 @@ body {
     color: #000;
     font-size: 18px;
 }
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
     min-height: 50px;
 }
-.main-container{
+
+.main-container {
     display: flex;
     flex-wrap: wrap;
 }
+
 .header {
     background-color: #000;
     padding: 10px 0 10px 0;
 }
+
 .nav-list {
     list-style: none;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
+
 .nav-link {
     padding: 0 20px;
     line-height: 50px;
@@ -39,7 +46,8 @@ body {
     color: #fff;
     position: relative;
 }
-.nav-link:after{
+
+.nav-link:after {
     content: '';
     display: block;
     height: 2px;
@@ -50,17 +58,21 @@ body {
     transition: 1s all;
     position: absolute;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: blue;
     transition: 1s all;
 }
+
 .hamburger {
     display: none;
 }
-.nav-link:hover::after{
+
+.nav-link:hover::after {
     color: blue;
     width: 100%;
 }
+
 .section {
     margin-right: 50px;
     width: 45%;
@@ -74,8 +86,9 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 50px 0 50px 0;
-    border-bottom :5px solid #000
+    border-bottom: 5px solid #000
 }
+
 .section-profile-logo {
     width: 250px;
     height: 250px;
@@ -91,10 +104,11 @@ body {
     letter-spacing: 12px;
 
 }
+
 .main-profile-title::after {
 
     margin: 0 auto;
-margin-top: 20px;
+    margin-top: 20px;
     content: '';
     display: block;
     height: 2px;
@@ -102,16 +116,19 @@ margin-top: 20px;
     width: 60%;
 
 }
+
 .main-profile-subtitle {
     font-size: 30px;
     letter-spacing: 12px;
 }
+
 .section-item {
     position: relative;
     list-style-type: none;
     font-size: 20px;
     margin-bottom: 20px;
 }
+
 .section-item::before {
     content: '';
     display: block;
@@ -123,43 +140,55 @@ margin-top: 20px;
     height: 20px;
     background-image: url('../assets/img/icon/check_mark.png')
 }
+
 .section-item a {
     text-decoration: none;
     color: #000;
 }
+
 .contact-item:nth-child(1)::before {
     background-image: url('../assets/img/icon/location.png')
 }
+
 .contact-item:nth-child(2)::before {
     background-image: url('../assets/img/icon/email.png')
 }
+
 .contact-item:nth-child(3)::before {
     background-image: url('../assets/img/icon/github.png')
 }
+
 .contact-item:nth-child(4)::before {
     background-image: url('../assets/img/icon/discord.png')
 }
+
 .contact-item:nth-child(5)::before {
     background-image: url('../assets/img/icon/phone.png')
 }
+
 .skills-item:nth-child(1)::before {
     background-image: url('../assets/img/icon/html.png')
 }
+
 .skills-item:nth-child(2)::before {
     background-image: url('../assets/img/icon/css.png')
 }
+
 .skills-item:nth-child(3)::before {
     background-image: url('../assets/img/icon/javascript.png')
 }
+
 .skills-item:nth-child(4)::before {
     background-image: url('../assets/img/icon/git.png')
 }
+
 .summary-text {
     font-size: 20px;
     line-height: 33px;
 }
 
-.section-education, .section-languages{
+.section-education,
+.section-languages {
     border: none;
 }
 
@@ -168,20 +197,25 @@ margin-top: 20px;
     background-color: #000;
     padding: 15px 0 15px 0;
 }
+
 .footer-container {
-display: flex;
-justify-content: space-between;
-align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 .footer-link {
     color: #fff;
 }
+
 .footer-link a {
     padding-left: 20px;
     text-decoration: none;
     color: #fff;
 }
+
 .rss {
+    color: #000;
     display: block;
     width: 200px;
     height: 40px;
@@ -196,52 +230,64 @@ align-items: center;
     .section {
         width: 40%;
     }
+
     .section-profile {
         width: 100%;
     }
+
     .nav-list {
         justify-content: center;
     }
+
     .main-profile-subtitle {
         font-size: 28px;
         letter-spacing: 10px;
-}
-.main-profile-title {
-    text-align: center;
-    font-size: 35px;
-    letter-spacing: 10px;
+    }
 
+    .main-profile-title {
+        text-align: center;
+        font-size: 35px;
+        letter-spacing: 10px;
+
+    }
+
+    .footer-link {
+        margin-left: 20px;
+    }
 }
-.footer-link {
-    margin-left: 20px;
-}
-}
+
 @media (max-width: 991px) {
     .nav-link {
         font-size: 14px;
         line-height: 10px;
     }
+
     .main-profile-title {
         font-size: 30px;
         letter-spacing: 5px;
     }
+
     .main-profile-subtitle {
         text-align: center;
         font-size: 25px;
         letter-spacing: 5px;
     }
+
     .section-profile-logo {
         width: 200px;
         height: 200px;
     }
+
     .section-title {
         text-align: center;
     }
+
     .summary-text {
         font-size: 17px;
         line-height: 30px;
     }
 }
+
 @media (max-width: 769px) {
     .nav-list {
         position: absolute;
@@ -255,32 +301,41 @@ align-items: center;
         align-items: center;
         transition: 0.7s all;
     }
+
     .nav-list-active {
         left: 0;
     }
+
     .nav-item {
         margin: 10px 0;
     }
+
     .nav-item a {
         font-size: 20px;
 
     }
+
     .section-profile {
         flex-direction: column;
         align-items: center;
     }
+
     .section {
         width: 100%;
     }
+
     .summary-text {
         margin-left: 30px;
     }
+
     .section-text {
         margin-left: 30px;
     }
+
     .header {
         position: relative;
     }
+
     .hamburger {
         display: block;
         position: absolute;
@@ -290,6 +345,7 @@ align-items: center;
         width: 20px;
         height: 12px;
     }
+
     .hamburger span {
         display: block;
         height: 2px;
@@ -297,24 +353,30 @@ align-items: center;
         background-color: #fff;
         margin-bottom: 2px;
     }
+
     .hamburger-active span {
         transition: 0.5s all;
         margin-bottom: -2px;
     }
+
     .hamburger-active span:nth-child(1) {
         transform: translateY(3px) rotate(-45deg);
     }
+
     .hamburger-active span:nth-child(2) {
         display: none;
     }
+
     .hamburger-active span:nth-child(3) {
         transform: translateY(3px) rotate(45deg);
     }
 }
+
 @media (max-width: 576px) {
     .pre {
         font-size: 13px;
     }
+
     .rss {
         width: 100px;
     }
