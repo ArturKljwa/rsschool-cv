@@ -7,17 +7,13 @@
 + Telegram: @kljwa1996
 + Phone(viber): +375333051743
 + discord: ArturKljwa(@ArturKljwa)
-+ Github: ArturKljwa
 
 ##  **Summary:**
-+ Hello, I want to become a beginner front-end developer. I like programming. I strive to develop in this direction. At the moment I am not working in my specialty. But I did a few tutorial projects and I really liked it. In the future, I would like to learn JavaScript at a high level, as well as learn the React library. I would be glad to work with professionals in the same team.
++ I am a taxi driver. I have a higher legal education. I decided to change my life. I decided to try something new (rs school). I want to get new and useful knowledge. I love to code and coffee. I can(love) spend a lot of time doing what interests me.
 
 
 ##  **Skills:**
- + HTML
- + CSS
- + Javascrpit
- + Git
+ + HTML&CSS
 
 ## **Code examples**
 
