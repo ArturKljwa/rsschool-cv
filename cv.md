@@ -11,3 +11,31 @@
 - I started studying basic things in the world of web development.
 - At this stage of my life I work in the auto parts industry.
 - I'm planning to get a job as a junior frontend developer.
+
+## **Skills:**
+- HTML
+- CSS
+- Javascrpit
+- Git
+- SCSS
+- Webpack
+
+## **Code examples**
+
+```function multiply(a, b){
+  return a * b
+}
+```
+
+## **Education**
+- RssSchool JS / Front-end Pre-school RU
+- Udemu Js Course
+
+## ** I have no commercial experience
+
+## ** Languages
+- Russian
+
+## ** English
+
+- I have entry level A1
