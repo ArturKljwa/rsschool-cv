@@ -1,0 +1,52 @@
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+html {
+    font-family: Poppins, sans-serif;
+}
+
+.header {
+    padding: 20px 0;
+
+}
+
+.profile {
+    padding-top: 20px;
+}
+
+.profile__photo {
+    width: 40%;
+}
+
+.nav__wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_item {
+    font-size: 18px;
+}
+
+.profile__wrapper {
+    display: flex;
+    justify-content: center;
+
+}
+
+.profile__descr {
+    width: 40%;
+}
+
+.profile__img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: black;
+    background-image: url('../assets/image/photo.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-size: cover;
+}
