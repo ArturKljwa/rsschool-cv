@@ -7,13 +7,21 @@ html {
     font-family: Poppins, sans-serif;
 }
 
+
+
 .header {
     padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 24px 196px 0px rgba(112, 105, 105, 0.81);
+}
+
+main {
+    background-color: rgba(9, 154, 243, 0.24);
 
 }
 
 .profile {
-    padding-top: 20px;
+    padding: 20px 0;
 }
 
 .profile__photo {
@@ -49,4 +57,26 @@ html {
     background-size: contain;
     background-position: center;
     background-size: cover;
+}
+
+.profile__title {
+    font-size: 32px;
+}
+
+.profile__subtitle {
+    font-size: 26px;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 24px 196px 0px rgba(112, 105, 105, 0.81);
+}
+
+.footer__wrapper {
+    padding: 20px 0;
+    max-height: 70px;
+    display: flex;
+    justify-content: space-around;
+
+
 }
