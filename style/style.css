@@ -25,8 +25,34 @@ h1 {
     width: 25px;
     height: 25px;
     display: block;
-    background-color: black;
     margin-right: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.icon_location {
+    background-image: url('../assets/image/icon/location.png')
+}
+
+.icon_email {
+    background-image: url('../assets/image/icon/email.png')
+}
+
+.icon_github {
+    background-image: url('../assets/image/icon/git.png')
+}
+
+.icon_discord {
+    background-image: url('../assets/image/icon/discord.png')
+}
+
+.icon_viber {
+    background-image: url('../assets/image/icon/phone.png')
+}
+
+.icon_telegramm {
+    background-image: url('../assets/image/icon/telegramm.png')
 }
 
 .header {
