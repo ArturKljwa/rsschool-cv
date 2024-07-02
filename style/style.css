@@ -108,6 +108,7 @@ main {
 }
 
 .profile__img {
+    display: block;
     width: 250px;
     height: 250px;
     border-radius: 50%;
