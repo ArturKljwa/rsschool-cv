@@ -109,15 +109,9 @@ main {
 
 .profile__img {
     display: block;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    background-color: black;
-    background-image: url('../assets/image/photo.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    background-size: cover;
+    max-width: 250px;
+    height: auto;
+    border-radius: 15%;
 }
 
 .profile__title {
@@ -136,7 +130,7 @@ main {
 .profile__line {
 
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 20px;
     width: 90%;
     height: 3px;
     background-color: black;
