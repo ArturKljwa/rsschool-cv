@@ -1,0 +1,219 @@
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+html {
+    font-family: Poppins, sans-serif;
+}
+
+h1 {
+    margin: 0;
+}
+
+.line {
+    height: 1px;
+    background-color: rgb(77, 60, 6);
+    max-width: 63%;
+}
+
+.title {
+    text-decoration: underline;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin-right: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.icon_location {
+    background-image: url('../assets/image/icon/location.png')
+}
+
+.icon_email {
+    background-image: url('../assets/image/icon/email.png')
+}
+
+.icon_github {
+    background-image: url('../assets/image/icon/git.png')
+}
+
+.icon_discord {
+    background-image: url('../assets/image/icon/discord.png')
+}
+
+.icon_viber {
+    background-image: url('../assets/image/icon/phone.png')
+}
+
+.icon_telegramm {
+    background-image: url('../assets/image/icon/telegramm.png')
+}
+
+.icon__courses_udemu {
+    background-image: url('../assets/image/icon/udemy.svg')
+}
+
+.header {
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 24px 196px 0px rgba(112, 105, 105, 0.81);
+}
+
+.nav__wrapper {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_item {
+    font-size: 18px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    background-color: rgba(9, 154, 243, 0.24);
+
+}
+
+.profile {
+    padding: 20px 0;
+}
+
+.profile__photo {
+    width: 40%;
+}
+
+
+
+
+.profile__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.profile__descr {
+    width: 40%;
+}
+
+.profile__img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: black;
+    background-image: url('../assets/image/photo.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-size: cover;
+}
+
+.profile__title {
+    font-size: 32px;
+}
+
+.profile__subtitle {}
+
+.profile__subtitle h2 {
+    margin-top: 10px;
+    padding-left: 15%;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.profile__line {
+
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 90%;
+    height: 3px;
+    background-color: black;
+}
+
+.about__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about__wrapper>* {
+    flex-basis: 45%;
+}
+
+.contacts__list {
+    list-style-type: none;
+}
+
+.contacts__item {
+    display: flex;
+    margin: 5px 0;
+
+}
+
+.contacts__link {
+    margin: 5px 0;
+    text-decoration: none;
+    color: black;
+}
+
+.projects__link {
+    text-decoration: none;
+    color: black;
+}
+
+.descripton__item {
+    margin: 10px 0;
+}
+
+.courses_item {
+    font-size: 18px;
+    margin: 5px 0;
+    display: flex;
+}
+
+
+
+
+
+
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 24px 196px 0px rgba(112, 105, 105, 0.81);
+}
+
+.footer__wrapper {
+    padding: 20px 0;
+    max-height: 70px;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.footer__link-author {
+    text-decoration: none;
+    color: black;
+}
+
+.footer__link-cource {
+    display: block;
+    width: 30px;
+    height: 30px;
+
+    text-decoration: none;
+    background-image: url('../assets/image/logo/logoRSS.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
